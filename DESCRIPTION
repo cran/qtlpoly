@@ -1,8 +1,8 @@
 Package: qtlpoly
 Type: Package
 Title: Random-Effect Multiple QTL Mapping in Autopolyploids
-Version: 0.2.2
-Authors@R: c(person(given = "Guilhereme",
+Version: 0.2.3
+Authors@R: c(person(given = "Guilherme",
                     family = "da Silva Pereira",
                     role = "aut",
                     email = "gdasilv@ncsu.edu",
@@ -26,7 +26,7 @@ Authors@R: c(person(given = "Guilhereme",
                     family = "Qu",
                     role = "ctb",
                     email = "rtistician@gmail.com",
-                    comment = "C code for variance component tests using score statistics in R/varComp.R"),
+                    comment = "R code for variance component tests using score statistics in R/varComp.R"),
             person(given = "Giovanny",
                     family = "Covarrubias-Pazaran",
                     role = "ctb",
@@ -49,16 +49,16 @@ LinkingTo: Rcpp, RcppArmadillo, RcppProgress
 Suggests: mappoly, rmarkdown, devtools, knitr
 RoxygenNote: 7.1.2
 NeedsCompilation: yes
-Packaged: 2021-11-09 18:50:36 UTC; gabrielgesteira
-Author: Guilhereme da Silva Pereira [aut]
+Packaged: 2022-01-12 02:55:01 UTC; gabrielgesteira
+Author: Guilherme da Silva Pereira [aut]
     (<https://orcid.org/0000-0002-7106-8630>),
   Marcelo Mollinari [ctb] (<https://orcid.org/0000-0002-7001-8498>),
   Gabriel de Siqueira Gesteira [ctb, cre]
     (<https://orcid.org/0000-0002-4106-7346>),
   Zhao-Bang Zeng [ctb] (<https://orcid.org/0000-0002-3115-1149>),
-  Long Qu [ctb] (C code for variance component tests using score
+  Long Qu [ctb] (R code for variance component tests using score
     statistics in R/varComp.R),
   Giovanny Covarrubias-Pazaran [ctb] (C code for fitting mixed models
     with REML estimation in src/MNR.cpp)
 Repository: CRAN
-Date/Publication: 2021-11-10 13:20:02 UTC
+Date/Publication: 2022-01-12 09:12:49 UTC
