@@ -1,7 +1,7 @@
 Package: qtlpoly
 Type: Package
 Title: Random-Effect Multiple QTL Mapping in Autopolyploids
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(person(given = "Guilherme",
                     family = "da Silva Pereira",
                     role = "aut",
@@ -44,12 +44,13 @@ LazyDataCompression: xz
 Depends: R (>= 4.0)
 Imports: ggplot2 (>= 3.1), abind (>= 1.4), MASS (>= 7.3), gtools (>=
         3.9.2), CompQuadForm, Matrix, RLRsim, mvtnorm, nlme, quadprog,
-        parallel, stats, methods, Rcpp (>= 0.12.19)
+        parallel, doParallel, foreach, stats, methods, mappoly, Rcpp
+        (>= 0.12.19)
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress
-Suggests: mappoly, rmarkdown, devtools, knitr
-RoxygenNote: 7.1.2
+Suggests: rmarkdown, devtools, knitr
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2022-01-12 02:55:01 UTC; gabrielgesteira
+Packaged: 2024-03-20 18:48:26 UTC; gdesiqu
 Author: Guilherme da Silva Pereira [aut]
     (<https://orcid.org/0000-0002-7106-8630>),
   Marcelo Mollinari [ctb] (<https://orcid.org/0000-0002-7001-8498>),
@@ -61,4 +62,4 @@ Author: Guilherme da Silva Pereira [aut]
   Giovanny Covarrubias-Pazaran [ctb] (C code for fitting mixed models
     with REML estimation in src/MNR.cpp)
 Repository: CRAN
-Date/Publication: 2022-01-12 09:12:49 UTC
+Date/Publication: 2024-03-25 20:50:06 UTC

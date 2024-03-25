@@ -1,14 +1,15 @@
-[![Travis Build Status](https://app.travis-ci.com/gabrielgesteira/QTLpoly.svg?branch=main)](https://app.travis-ci.com/gabrielgesteira/QTLpoly)
+r[![Travis Build Status](https://app.travis-ci.com/gabrielgesteira/QTLpoly.svg?branch=main)](https://app.travis-ci.com/gabrielgesteira/QTLpoly)
  [![Development](https://img.shields.io/badge/development-active-blue.svg)](https://img.shields.io/badge/development-active-blue.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/qtlpoly)](https://cran.r-project.org/package=qtlpoly)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/qtlpoly)](https://cran.r-project.org/package=qtlpoly)
 [![R-universe PolyVerse Status Badge](https://polyploids.r-universe.dev/badges/qtlpoly)](https://polyploids.r-universe.dev/badges/qtlpoly)
 [![CRAN_monthly_downloads](https://cranlogs.r-pkg.org/badges/qtlpoly)](https://cranlogs.r-pkg.org/badges/qtlpoly?color=orange)
 
 
+
 # QTLpoly <img src="https://raw.githubusercontent.com/gabrielgesteira/QTLpoly/main/hex.png" align="right" width="200" />
 
-The R package `qtlpoly` (v. 0.2.2) is an under development software to map quantitative trait loci (QTL) in full-sib families of outcrossing autopolyploid species based on a random-effect multiple QTL model (Pereira et al. 2020). 
+The R package `qtlpoly` (v. 0.2.4) is an under development software to map quantitative trait loci (QTL) in full-sib families of outcrossing autopolyploid species based on a random-effect multiple QTL model (Pereira et al. 2020). 
 
 In order to do so, you will need a genetic map from which conditional probabilities of putative QTL can be computed. We recommend [`mappoly`](https://cran.r-project.org/package=mappoly), a hidden Markov model-based R package to construct genetic maps in autopolyploids (Mollinari and Garcia 2019).
 
@@ -33,19 +34,20 @@ install.packages("devtools")
 devtools::install_github("gabrielgesteira/qtlpoly") 
 ```
 
-If you are using Windows, you may need to first install the the latest recommended version of [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
+If you are using Windows, you may need to first install the latest recommended version of [Rtools](https://cran.r-project.org/bin/windows/Rtools/).
 
 # Documents 
 
 Tutorials as well as simulated and real data set analyses will be listed here in order to help users to get familiar with the software and allow them to perform their own analyses:
 
-1. [Tutorial on Multiple QTL Mapping in Autopolyploids with QTLpoly](https://guilherme-pereira.github.io/QTLpoly/1-tutorial)
+<!-- 1. [Tutorial on Multiple QTL Mapping in Autopolyploids with QTLpoly](https://guilherme-pereira.github.io/QTLpoly/1-tutorial) -->
+1. [Tutorial on Multiple QTL Mapping in Autopolyploids with QTLpoly](https://gabrielgesteira.github.io/QTLpoly/docs/1-tutorial)
 2. [Tools for Polyploids](https://www.polyploids.org/workshop/2021/january/info) training section: [Multiple QTL Mapping in an Autotetraploid F<sub>1</sub> population with QTLpoly](https://guilherme-pereira.github.io/QTLpoly/2-tetraploid_example.html)
 
 
 # Related software
 
-* [Polyverse](https://polyploids.r-universe.dev/ui#builds) - the polyploid R universe (a Lindsay Clark's initiative)
+* [Polyverse](https://polyploids.r-universe.dev/builds) - the polyploid R universe (a Lindsay Clark's initiative)
 
 * Variant Calling
   *  [GBSapp: An automated pipeline for variant calling and filtering.](https://github.com/bodeolukolu/GBSapp)
@@ -65,7 +67,7 @@ Tutorials as well as simulated and real data set analyses will be listed here in
   * [MAPpoly: Genetic maps in complex autopolyploids with even ploidy levels](https://CRAN.R-project.org/package=mappoly)
   * [MDSMap: High Density Genetic Linkage Mapping using Multidimensional Scaling](https://CRAN.R-project.org/package=MDSMap)
   * [polymapR: Linkage Analysis in Outcrossing Polyploids](https://CRAN.R-project.org/package=polymapR)
-  * [TetraploidSNPMap: Linkage maps and mapping QTLs for autotetraploid species, using SNP dosage data.](https://www.bioss.ac.uk/knowledge/tetraploidmap/)
+  * [TetraploidSNPMap: Linkage maps and mapping QTLs for autotetraploid species, using SNP dosage data.](https://www.bioss.ac.uk/knowledge-exchange/software/TetraploidSNPMap)
   
   
 * Haplotype reconstruction
@@ -94,4 +96,4 @@ Pereira GS, Gemenet DC, Mollinari M, Olukolu BA, Wood JC, Mosquera V, Gruneberg 
 
 Qu L, Guennel T, Marshall SL. 2013. “Linear score tests for variance components in linear mixed models and applications to genetic association studies.” Biometrics 69 (4): 883-892.
 
-Wickham H. 2016. “ggplot2: Elegant Graphics for Data Analysis.” Springer. [doi:10.1007/978-0-387-98141-3](https://www.springer.com/gp/book/9780387981413).
+Wickham H. 2016. “ggplot2: Elegant Graphics for Data Analysis.” Springer. [doi:10.1007/978-0-387-98141-3](https://link.springer.com/book/10.1007/978-0-387-98141-3).
